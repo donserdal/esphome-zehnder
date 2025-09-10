@@ -22,7 +22,7 @@ static const uint32_t NETWORK_LINK_ID = 0xA55A5AA5;
 enum {
     FAN_TYPE_BROADCAST = 0x00,
     FAN_TYPE_MAIN_UNIT = 0x01,
-    FAN_TYPE_REMOTE_CONTROL = 0x03,
+    FAN_TYPE_REMOTE_CONTROL = 0x16,
 };
 enum {
     FAN_FRAME_SETSPEED = 0x02,
@@ -36,9 +36,9 @@ enum {
 };
 enum {
     FAN_SPEED_AUTO = 0x00,
-    FAN_SPEED_LOW = 0x01,
-    FAN_SPEED_MEDIUM = 0x02,
-    FAN_SPEED_HIGH = 0x03,
+    FAN_SPEED_LOW = 0x0A,
+    FAN_SPEED_MEDIUM = 0x1E,
+    FAN_SPEED_HIGH = 0x3C,
 };
 
 
