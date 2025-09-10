@@ -466,7 +466,7 @@ void ZehnderFanComponent::control(const fan::FanCall &call) {
     }
     
     // For now, timer is not implemented via Home Assistant fan model. Could be a separate service.
-    uint8_t timer = 0; 
+    uint8_t timer = 60; 
     
     ESP_LOGD(TAG, "Setting fan speed to level %d", this->pending_fan_speed_);
     
